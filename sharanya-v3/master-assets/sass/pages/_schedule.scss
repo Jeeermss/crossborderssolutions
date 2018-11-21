@@ -1,0 +1,73 @@
+@media only screen and (min-width: 320px) {
+  #groupsFees {
+    .show_only_S {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+      }
+    }
+
+    .show_only_L {
+      display: none;
+    }
+
+    .show_only_XL {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #groupsFees {
+    .show_only_S {
+      display: none;
+    }
+
+    .show_only_L {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        text-align: center;
+        padding: 3rem 0;
+        width: 100%;
+      }
+    }
+
+    .show_only_XL {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #groupsFees {
+    .show_only_S {
+      display: none;
+    }
+
+    .show_only_L {
+      display: none;
+    }
+
+    .show_only_XL {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        margin: auto;
+        text-align: center;
+        padding: 3rem 0;
+        width: 100%;
+      }
+    }
+  }
+}
